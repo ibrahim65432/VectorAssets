@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        ivPic.findViewById(R.id.ivPic);
-        btnChange.findViewById(R.id.btnChange);
+        ivPic = findViewById(R.id.ivPic);
+        btnChange = findViewById(R.id.btnChange);
 
         btnChange.setOnClickListener(new View.OnClickListener() {
             @Override
